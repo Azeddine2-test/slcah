@@ -1,0 +1,18 @@
+txd = engineLoadTXD ("models/skatepark.txd", 5390)
+engineImportTXD(txd, 5390)
+dff = engineLoadDFF ("models/skatepark.dff", 5390)
+engineReplaceModel(dff, 5390, true)
+col = engineLoadCOL("models/skatepark.col")
+engineReplaceCOL(col, 5390)
+
+txd = engineLoadTXD ("models/skatepark.txd", 5415)
+engineImportTXD(txd, 5415)
+dff = engineLoadDFF ("models/skatepark_fence.dff", 5415)
+engineReplaceModel(dff, 5415, true)
+col = engineLoadCOL("models/skatepark_fence.col")
+engineReplaceCOL(col, 5415)
+
+dff = engineLoadDFF ("models/skatepark_graffiti.dff", 5663)
+engineReplaceModel(dff, 5663, true)
+col = engineLoadCOL("models/skatepark_graffiti.col")
+engineReplaceCOL(col, 5663)

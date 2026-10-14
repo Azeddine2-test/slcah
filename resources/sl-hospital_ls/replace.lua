@@ -1,0 +1,6 @@
+txd = engineLoadTXD ("models/hospital_ls.txd", 5708)
+engineImportTXD(txd, 5708)
+dff = engineLoadDFF ("models/hospital_ls.dff", 5708)
+engineReplaceModel(dff, 5708, true)
+col = engineLoadCOL("models/hospital_ls.col")
+engineReplaceCOL(col, 5708)

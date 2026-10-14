@@ -1,0 +1,11 @@
+txd = engineLoadTXD ("models/mechanic_garage.txd", 4880)
+engineImportTXD(txd, 4880)
+dff = engineLoadDFF ("models/mechanic_garage.dff", 4880)
+engineReplaceModel(dff, 4880, true)
+col = engineLoadCOL("models/mechanic_garage.col")
+engineReplaceCOL(col, 4880)
+
+dff = engineLoadDFF ("models/mechanic_garage_road.dff", 4107)
+engineReplaceModel(dff, 4107, true)
+col = engineLoadCOL("models/mechanic_garage_road.col")
+engineReplaceCOL(col, 4107)

@@ -1,0 +1,10 @@
+<favourites>
+    <animation block="CAR" animation="Tap_hand" command="relax"></animation>
+    <animation block="OWL" animation="sitcross" command="assisbras"></animation>
+    <animation block="COP_AMBIENT" animation="Coplook_loop" command="Croiser"></animation>
+    <animation block="BEACH" animation="ParkSit_M_loop" command="assis2"></animation>
+    <animation block="OWL" animation="LOU_Loop" command="assis1"></animation>
+    <animation block="OWL" animation="death" command="death"></animation>
+    <animation block="OWL" animation="handsup" command="main"></animation>
+    <animation block="OWL" animation="slav_squat" command="accroupis"></animation>
+</favourites>
